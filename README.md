@@ -1,6 +1,6 @@
 Smart 4-Way Traffic Light System
 
-Overview
+## Overview
 
 An Arduino Mega 2560 based intelligent 4-way traffic light control system designed to simulate a real-world intersection using embedded systems hardware and custom traffic sequencing logic. The project integrates traffic light control, pedestrian crossing systems, keypad-controlled maintenance and emergency modes, automatic light detection, audio alerts, and LCD user interfaces.
 
