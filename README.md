@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Hardware](https://img.shields.io/badge/Focus-Hardware%20Integration-orange)
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 📖 Overview
 
@@ -13,7 +13,7 @@ The **Smart 4-Way Traffic Light System** is an Arduino Mega 2560 based intellige
 
 The project integrates traffic light control, pedestrian crossing systems, keypad-controlled maintenance and emergency modes, automatic sensor detection, LCD interfaces, audio alerts, and multi-subsystem embedded control into a unified hardware platform.
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## ✨ Project Features
 
@@ -30,7 +30,7 @@ The project integrates traffic light control, pedestrian crossing systems, keypa
 - ⏱ Real-time event sequencing and timing control
 - 🧩 Multi-breadboard hardware integration
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🛠 Hardware Used
 
@@ -47,7 +47,7 @@ The project integrates traffic light control, pedestrian crossing systems, keypa
 - Speaker
 - Breadboards
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🔊 System Workflow
 
@@ -61,7 +61,7 @@ Pedestrian Button / Sensor Input
 → Audio Alert Output
 ```
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🧠 Engineering Concepts Demonstrated
 
@@ -77,7 +77,7 @@ Pedestrian Button / Sensor Input
 - Breadboard Prototyping
 - Hardware Debugging & Validation
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 📂 Repository Structure
 
@@ -97,7 +97,7 @@ Smart-4-Way-Traffic-Light-System/
 └── README.md
 ```
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## ⚙️ Development Stages
 
@@ -116,7 +116,7 @@ LCD status displays, keypad integration, and maintenance controls.
 ### Final System
 Integrated traffic control platform combining traffic sequencing, pedestrian systems, sensors, displays, and emergency control logic.
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 📊 Firmware & System Development
 
@@ -131,7 +131,7 @@ Arduino firmware was used for:
 - Real-time timing control
 - Multi-subsystem hardware integration
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 📷 Project Photos
 
@@ -144,13 +144,13 @@ Arduino firmware was used for:
 ### Sensor and Comparator Circuits
 ![Sensor Circuits](Images/sensor_circuit.jpg)
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🎥 Demo Video
 
 [Watch Project Demo](Videos/system_demo.mp4)
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🚀 Future Improvements
 
@@ -163,7 +163,7 @@ Arduino firmware was used for:
 - Web dashboard monitoring
 - Smart intersection automation
 
----
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 👨‍💻 Author
 
