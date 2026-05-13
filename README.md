@@ -1,193 +1,173 @@
 # 🚦 Smart 4-Way Traffic Light System
 
 ![Arduino](https://img.shields.io/badge/Platform-Arduino-blue)
-
 ![Embedded Systems](https://img.shields.io/badge/Field-Embedded%20Systems-green)
-
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
 ![Hardware](https://img.shields.io/badge/Focus-Hardware%20Integration-orange)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+---
 
 ## 📖 Overview
 
-This project is a fully integrated **Arduino Mega 2560 based intelligent 4-way traffic light control system** designed to simulate a real-world intersection using embedded systems hardware, custom traffic sequencing logic, sensor integration, and real-time control systems.
+The **Smart 4-Way Traffic Light System** is an Arduino Mega 2560 based intelligent traffic control platform designed to simulate a real-world intersection using embedded systems hardware and real-time traffic sequencing logic.
 
-The system combines:
+The project integrates traffic light control, pedestrian crossing systems, keypad-controlled maintenance and emergency modes, automatic sensor detection, LCD interfaces, audio alerts, and multi-subsystem embedded control into a unified hardware platform.
 
-- 🚦 Traffic light sequencing
+---
 
-- 🚶 Pedestrian crossing systems
-
-- 🔐 Keypad-controlled maintenance and emergency modes
-
-- 🌗 Automatic light/vehicle detection
-
-- 📟 LCD status interfaces
-
-- 🔊 Audio alert systems
-
-- ⚡ Real-time embedded control logic
-
-This project was developed as a large-scale embedded systems and circuit integration build using multiple ICs, sensors, comparator circuits, LED drivers, and custom firmware architecture.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-# ✨ Project Features
+## ✨ Project Features
 
 - 🚦 4-way traffic light sequencing
-
 - ↔️ Independent North, East, South, and West traffic control
-
 - 🚶 Pedestrian crossing request system
-
 - 🚷 Dedicated pedestrian traffic LEDs
-
 - 🔐 Keypad-controlled maintenance mode
-
 - 🚨 Emergency override mode
-
 - 📟 Dual LCD status displays
-
 - 🔊 Audio alert speaker system
-
 - 🌗 Vehicle/light detection using LM393 comparator circuits
-
 - ⚡ ULN2803 LED driver integration
-
 - ⏱ Real-time event sequencing and timing control
+- 🧩 Multi-breadboard hardware integration
 
-- 🧩 Multi-breadboard hardware integration# Project Features
+---
 
-* 4-way traffic light sequencing
-* Independent North, East, South, and West traffic control
-* Pedestrian crossing request system
-* Dedicated pedestrian traffic LEDs
-* Keypad-controlled maintenance mode
-* Emergency override mode
-* LCD status displays
-* Audio alert speaker system
-* Vehicle/light detection using LM393 comparator circuits
-* ULN2803 LED driver integration
-* Real-time event sequencing and timing control
-* Multi-breadboard hardware integration
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-# 📷 System Demonstration
-
-## 🖥 Full System Overview
-
-The complete hardware system includes:
+## 🛠 Hardware Used
 
 - Arduino Mega 2560
+- ULN2803 Driver ICs
+- LM393 Comparator ICs
+- LM386 Audio Amplifier
+- LCD1602 Displays
+- 4x4 Membrane Keypad
+- Push Buttons
+- LDR Photoresistors
+- Potentiometers
+- LEDs
+- Speaker
+- Breadboards
 
-- Multiple breadboard subsystems
+---
 
-- ULN2803 LED driver ICs
-
-- LM393 comparator circuits
-
-- Dual LCD1602 displays
-
-- 4x4 membrane keypad
-
-- Traffic light LED arrays
-
-- Pedestrian crossing indicators
-
-- Audio speaker output
-
-- Vehicle/light detection sensors Demonstration
-
-Full System Overview
-
-The complete hardware system includes:
-
-* Arduino Mega 2560
-* Multiple breadboard subsystems
-* ULN2803 LED driver ICs
-* LM393 comparator circuits
-* Dual LCD1602 displays
-* 4x4 membrane keypad
-* Traffic light LED arrays
-* Pedestrian crossing indicators
-* Audio speaker output
-* Vehicle/light detection sensors
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-## 📸 Project Photos
-
-### 🔧 Main System Build
-
-![Full System](Images/full_system.jpg)
-
-### 🚦 Traffic Light Driver Section
-
-![Traffic Lights](Images/traffic_lights.jpg)
-
-### 🌗 Comparator and Sensor Circuitry
-
-![Sensor Circuit](Images/sensor_circuit.jpg)
-
-### 📟 LCD and Keypad Interface
-
-![Keypad Interface](Images/keypad_interface.jpg)
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-# 🛠 Hardware Architecture
-
-## 🚦 Traffic Light Control System
-
-The project controls a complete 4-way intersection with independent traffic light sequencing for each direction.
-
-Each traffic lane contains:
-
-- 🔴 Red LED
-
-- 🟡 Yellow LED
-
-- 🟢 Green LED
-
-- ✨ Blinking Green LED
-
-The system uses **ULN2803 IC driver chips** to safely control all LED outputs from the Arduino Mega.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-## 🚶 Pedestrian Crossing System
-
-The pedestrian subsystem includes:
-
-- 🚶 Dedicated pedestrian request buttons
-
-- 🔴 Red pedestrian stop LEDs
-
-- 🟢 Clear pedestrian crossing LEDs
-
-- ⚠️ Crossing request indicators
-
-Pedestrian requests are processed in software and synchronized with traffic light timing.
-
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
-## 🔐 Keypad Interface
-
-A 4x4 membrane keypad was integrated into the system for:
-
-- Maintenance mode activation
-
-- Emergency override access
-
-- System testing and control
-
-### 🔧 Maintenance Mode
+## 🔊 System Workflow
 
 ```text
+Pedestrian Button / Sensor Input
+→ Arduino Mega Processing
+→ Traffic Sequencing Logic
+→ ULN2803 Driver ICs
+→ Traffic & Pedestrian LEDs
+→ LCD Status Updates
+→ Audio Alert Output
+```
 
-1235#
+---
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+## 🧠 Engineering Concepts Demonstrated
+
+- Embedded Systems
+- Real-Time Control Systems
+- Digital Logic
+- Comparator Circuits
+- LED Driver IC Integration
+- Human Machine Interfaces (HMI)
+- Sensor Signal Conditioning
+- Traffic Flow State Machines
+- Multi-Subsystem Integration
+- Breadboard Prototyping
+- Hardware Debugging & Validation
+
+---
+
+## 📂 Repository Structure
+
+```text
+Smart-4-Way-Traffic-Light-System/
+
+├── Arduino_Code/
+│   ├── v10.ino
+│   └── v11.ino
+│
+├── Circuit_Diagrams/
+├── Documentation/
+├── IC_Chips/
+├── Images/
+├── Pin_Mapping/
+├── Videos/
+└── README.md
+```
+
+---
+
+## ⚙️ Development Stages
+
+### Stage 1 — Traffic Light Drivers
+Initial LED driver integration and traffic sequencing logic.
+
+### Stage 2 — Pedestrian System
+Pedestrian crossing buttons and crossing indicator development.
+
+### Stage 3 — Sensor Integration
+LM393 comparator circuits and LDR detection subsystem testing.
+
+### Stage 4 — LCD & Keypad Interface
+LCD status displays, keypad integration, and maintenance controls.
+
+### Final System
+Integrated traffic control platform combining traffic sequencing, pedestrian systems, sensors, displays, and emergency control logic.
+
+---
+
+## 📊 Firmware & System Development
+
+Arduino firmware was used for:
+
+- Traffic sequencing
+- Pedestrian request handling
+- Sensor monitoring
+- LCD display updates
+- Keypad interaction
+- Emergency override modes
+- Real-time timing control
+- Multi-subsystem hardware integration
+
+---
+
+## 📷 Project Photos
+
+### Full System Build
+![Full System](Images/full_system.jpg)
+
+### Traffic Light Driver Section
+![Traffic Drivers](Images/traffic_drivers.jpg)
+
+### Sensor and Comparator Circuits
+![Sensor Circuits](Images/sensor_circuit.jpg)
+
+---
+
+## 🎥 Demo Video
+
+[Watch Project Demo](Videos/system_demo.mp4)
+
+---
+
+## 🚀 Future Improvements
+
+- Custom PCB implementation
+- Wireless monitoring system
+- Camera-based vehicle detection
+- AI-assisted traffic optimization
+- OLED/touchscreen display upgrades
+- Raspberry Pi analytics integration
+- Web dashboard monitoring
+- Smart intersection automation
+
+---
+
+## 👨‍💻 Author
+
+**Philip Perry**  
+Bachelor of Science in Electrical Power Engineering Technology @ University of Houston  
+Minor in Computer Science Engineering Technology  
+U.S. Army Veteran & Former Sergeant
