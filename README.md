@@ -8,7 +8,7 @@
 
 ![Hardware](https://img.shields.io/badge/Focus-Hardware%20Integration-orange)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 📖 Overview
 
@@ -32,7 +32,7 @@ The system combines:
 
 This project was developed as a large-scale embedded systems and circuit integration build using multiple ICs, sensors, comparator circuits, LED drivers, and custom firmware architecture.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 # ✨ Project Features
 
@@ -73,7 +73,7 @@ This project was developed as a large-scale embedded systems and circuit integra
 * Real-time event sequencing and timing control
 * Multi-breadboard hardware integration
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 # 📷 System Demonstration
 
@@ -116,7 +116,7 @@ The complete hardware system includes:
 * Audio speaker output
 * Vehicle/light detection sensors
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 📸 Project Photos
 
@@ -136,7 +136,7 @@ The complete hardware system includes:
 
 ![Keypad Interface](Images/keypad_interface.jpg)
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 # 🛠 Hardware Architecture
 
@@ -156,7 +156,7 @@ Each traffic lane contains:
 
 The system uses **ULN2803 IC driver chips** to safely control all LED outputs from the Arduino Mega.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🚶 Pedestrian Crossing System
 
@@ -172,7 +172,7 @@ The pedestrian subsystem includes:
 
 Pedestrian requests are processed in software and synchronized with traffic light timing.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ## 🔐 Keypad Interface
 
@@ -190,4 +190,4 @@ A 4x4 membrane keypad was integrated into the system for:
 
 1235#
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
